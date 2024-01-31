@@ -293,6 +293,9 @@ html {
   border: none;
   color: white;
   padding: 10px 5px;
+  background-color: #c5c5c56b;
+  border-radius: 35%;
+  border: none;
   /* text-align: center; */
   /* text-decoration: none; */
   /* text-transform: uppercase; */
@@ -312,6 +315,7 @@ background-image: url("../png/HiHome.png");
 
 
 .button-magaz {
+  box-sizing: border-box;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 5px;
@@ -320,11 +324,12 @@ background-image: url("../png/HiHome.png");
   background-size: cover;
   background-position: center;
   background-size: 100%;
-  background-color: #00000000;
-  /* background-image: url("../png/dom.png"); */
+  background-color: #c5c5c56b;
+  border-radius: 35%;
   border: none;
+  /* background-image: url("../png/dom.png"); */
   /* color: white; */
-  padding: 1px 15px;
+  padding: 1px 5px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
