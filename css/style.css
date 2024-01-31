@@ -294,7 +294,7 @@ html {
   color: white;
   padding: 10px 5px;
   background-color: #c5c5c56b;
-  border-radius: 35%;
+  border-radius: 25px;
   border: none;
   /* text-align: center; */
   /* text-decoration: none; */
@@ -324,8 +324,8 @@ background-image: url("../png/HiHome.png");
   background-size: cover;
   background-position: center;
   background-size: 100%;
-  background-color: #c5c5c56b;
-  border-radius: 35%;
+  background-color: #ffffff;
+  border-radius: 25px;
   border: none;
   /* background-image: url("../png/dom.png"); */
   /* color: white; */
