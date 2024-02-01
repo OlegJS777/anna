@@ -344,6 +344,15 @@ background-image: url("../png/HiHome.png");
   background-image: url("../png/zakadrom.png");
 }
 
+.button-magaz-vincent {
+  background-image: url("../png/vincent.png");
+}
+
+.button-magaz-internetVincent {
+  background-image: url("../png/Strelka.png");
+}
+
+
 
 .card {
   box-sizing: border-box;
