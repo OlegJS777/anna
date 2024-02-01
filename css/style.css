@@ -279,29 +279,27 @@ html {
   outline: none;
 }
 
+.nom {
+  display: flex;
+}
+
+.nom-but {
+  justify-content: center;
+}
+
 .button-about {
-  /* margin-top: 50px; */
-  /* margin-bottom: 5px; */
-  /* margin-right: 5px; */
-  /* padding-top: 20px; */
+  margin-right: 5px;
   width: 73px;
   height: 36px;
-  /* background-size: cover; */
   background-position: center;
   background-size: 100%;
   background-color: #00000000;
   border: none;
-  color: white;
   padding: 10px 5px;
   background-color: #c5c5c56b;
   border-radius: 25px;
   border: none;
-  /* text-align: center; */
-  /* text-decoration: none; */
-  /* text-transform: uppercase; */
-  /* font-size: 10px; */
   cursor: pointer;
-  /* border-radius: 20px; */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -315,27 +313,18 @@ background-image: url("../png/HiHome.png");
 
 
 .button-magaz {
-  box-sizing: border-box;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-right: 5px;
   width: 73px;
   height: 33px;
-  background-size: cover;
   background-position: center;
   background-size: 100%;
-  background-color: #ffffff;
+  background-color: #c5c5c56b;
   border-radius: 25px;
   border: none;
-  /* background-image: url("../png/dom.png"); */
-  /* color: white; */
   padding: 1px 5px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  /* font-size: 10px; */
   cursor: pointer;
-  /* border-radius: 20px; */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
