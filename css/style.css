@@ -352,6 +352,9 @@ background-image: url("../png/HiHome.png");
   background-image: url("../png/Strelka.png");
 }
 
+.button-magaz-internetLuxury {
+  background-image: url("../png/Luxury.png");
+}
 
 
 .card {
