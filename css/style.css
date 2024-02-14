@@ -311,6 +311,10 @@ background-image: url("../png/HiHome.png");
   background-image: url("../png/swg.png");
   }
 
+  .button-about-add {
+    background-image: url("../png/ADDawards.png");
+    }
+
 
 .button-magaz {
   margin-top: 5px;
