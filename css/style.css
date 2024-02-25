@@ -173,6 +173,8 @@ html {
   justify-content: center;
   color: #ffffff;
   font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .button-wrap {
@@ -212,7 +214,7 @@ html {
   margin: 100px auto;
   display: flex;
   justify-content: center;
-  
+
 }
 
 .about-foto {
@@ -304,16 +306,19 @@ html {
 }
 
 .button-about-hi {
-background-image: url("../png/HiHome.png");
+  background-image: url("../png/HiHome.png");
 }
 
 .button-about-swg {
   background-image: url("../png/swg.png");
-  }
+}
 
-  .button-about-add {
-    background-image: url("../png/ADDawards.png");
-    }
+.button-about-add {
+  background-image: url("../png/ADDawards.png");
+}
+
+
+
 
 
 .button-magaz {
@@ -360,6 +365,9 @@ background-image: url("../png/HiHome.png");
   background-image: url("../png/Luxury.png");
 }
 
+.button-magaz-houzz {
+  background-image: url("../png/houzz.png");
+}
 
 .card {
   box-sizing: border-box;
@@ -395,7 +403,7 @@ background-image: url("../png/HiHome.png");
 .foto-post {
   width: 100%;
   max-height: 450px;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .foto-post img {
@@ -403,7 +411,7 @@ background-image: url("../png/HiHome.png");
   display: block;
 }
 
-.foto-post img:hover { 
+.foto-post img:hover {
   transform: scale(1.05);
 }
 
@@ -651,9 +659,9 @@ background-image: url("../png/HiHome.png");
 }
 
 a[href^="tel:"] {
-	color: #000;
-	font-size: 25px;
-	font-weight: 900;
+  color: #000;
+  font-size: 25px;
+  font-weight: 900;
   text-decoration: none;
 }
 
@@ -694,7 +702,7 @@ a[href^="tel:"] {
 .grid-foto {
   box-sizing: border-box;
   max-width: calc(33% - 10px);
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .grid-foto img {
@@ -702,7 +710,7 @@ a[href^="tel:"] {
   display: block;
 }
 
-.grid-foto img:hover { 
+.grid-foto img:hover {
   transform: scale(1.05);
 }
 
@@ -721,10 +729,10 @@ a[href^="tel:"] {
 }
 
 .faq {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
 }
 
 .faq-head {
@@ -1066,7 +1074,7 @@ padding: 30px;
 
 @media (max-width: 640px) {
 
-.burger {
+  .burger {
     display: flex;
     position: fixed;
     top: 0;
@@ -1142,7 +1150,7 @@ padding: 30px;
   }
 
   .button {
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
   }
 
   .about {
@@ -1256,10 +1264,10 @@ padding: 30px;
     margin-top: 10px;
   }
 
-  .button-post { 
+  .button-post {
     margin: 30px auto;
   }
-   
+
   .present-free {
     padding-top: 30px;
     font-size: 20px;
@@ -1270,7 +1278,7 @@ padding: 30px;
     font-size: 18px;
     text-align: center;
     padding-bottom: 30px;
-  } 
+  }
 
   .best-design {
     margin: 40px 10px;
@@ -1351,8 +1359,8 @@ padding: 30px;
   .foto-link-grid {
     margin: 0 auto;
 
-  } 
-  
+  }
+
   .grid-foto:nth-child(1n + 4) {
     margin: 5px;
   }
