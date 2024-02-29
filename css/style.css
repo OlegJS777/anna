@@ -369,6 +369,10 @@ html {
   background-image: url("../png/houzz.png");
 }
 
+.button-magaz-interiors {
+  background-image: url("../png/interiors.png");
+}
+
 .card {
   box-sizing: border-box;
   margin: 0 auto;
