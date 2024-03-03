@@ -373,6 +373,10 @@ html {
   background-image: url("../png/interiors.png");
 }
 
+.button-magaz-mydecor {
+  background-image: url("../png/mydecor.png");
+}
+
 .card {
   box-sizing: border-box;
   margin: 0 auto;
